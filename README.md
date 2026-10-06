@@ -37,3 +37,11 @@ Setup and examples are described in the existing project notes below. Consult th
 A collection of programming, algorithms, data structures, SQL, and interview-practice solutions from HackerRank.
 <!-- /repository-summary -->
 My HackerRank codes
+
+## Documentation checks
+
+Project architecture, interview guides, and local source links are checked automatically on pushes and pull requests. Run the same check locally:
+
+```bash
+python3 .github/scripts/validate_project_docs.py
+```
